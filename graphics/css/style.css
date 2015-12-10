@@ -1,0 +1,99 @@
+html , 
+body {
+	 	margin:0;
+	 	padding:0;
+}
+/*
+changing color of background
+
+.container {
+  background: linear-gradient(
+    to right, 
+    #ffffff 0%, 
+    #ffffff 50%, 
+    #000000 50%, 
+    #000000 100%
+  );
+  width:100%;
+  height:100%;
+}*/
+
+.graphics {
+  display: block;
+  width:window.innerWidth;
+  height:window.innerHeight;
+
+}
+
+polygon{
+  opacity:0;
+  -webkit-transition-delay: -1s;
+  -moz-transition-delay: -1s;
+  -o-transition-delay: -1s;
+  transition-delay: -1s;
+  
+}
+/*polygon.caida{
+
+  stroke:#80C4BE;
+  stroke-opacity:100;
+}
+*/
+polygon:hover{
+    opacity: 60;
+   cursor: pointer;
+
+
+  }
+
+polygon {
+   -webkit-transition-duration: 5s;
+  -moz-transition-duration: 5s;
+  -o-transition-duration: 5s;
+  transition-duration: 3s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+/*-------------------------------------------------*/
+polygon.caida {
+   fill:url(#imageCaida);
+
+}
+
+polygon.conquista {
+   fill:url(#imageConquista);
+
+}  
+
+polygon.rodin {
+   fill:url(#imageRodin);
+
+} 
+polygon.tokyo {
+   fill:url(#imageTokyo);
+
+} 
+polygon.wine {
+   fill:url(#imageWine);
+
+
+} 
+svg#patternCaida, svg#patternConquista, svg#patternRodin, svg#patternTokyo, svg#patternWine{
+  position: absolute;
+  width:0;
+  height:0;
+
+  }
+
+
+
+
+
+
+/*.test1{*/
+ /* fill="#64B3BE"*/
+  /*background-image: url("porfolio-portal1/lacaida1.png) 50% 0%;
+  background-size: cover;
+}*/
