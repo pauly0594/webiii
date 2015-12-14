@@ -10,6 +10,7 @@
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico"> 
 		<link rel="stylesheet" type="text/css" href="css/component2.css" />
+		<link rel="stylesheet" type="text/css" href="css/component6.css" />
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
@@ -22,8 +23,22 @@
 			<div class="codrops-top clearfix">
 				<a href="index.html"><strong>&laquo; Previous: </strong>Home</a>
 				<span class="right">
-<!-- 					<a href="http://dribbble.com/shots/990850-Minimal-iPhone-5-PSD-Free-Template-Updated">iPhone by Jakub Kejha</a>
- -->					<a href="index3.html"><strong> Next: </strong>La Caida <strong> &raquo;</strong></a></span>
+					<a href="index3.html"><strong> Next: </strong>La Caida <strong> &raquo;</strong></a></span>
+					
+					<div class=" center codrops-top clearfix dotstyle dotstyle-stroke">
+					
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li class="current"> <a href="index2.html">Metra Train</a></li>
+						<li><a href="index3.html">La Caida</a></li>
+						<li><a href="index4.html">Olympic Poster</a></li>
+						<li><a href="index5.html">Museum Identiti:Rodin</a></li>
+						<li><a href="Books/index6.html">Book Redesign</a></li>
+					</ul>
+				</div>
+					
+
+
 			</div><!--/ Codrops top bar -->
 			<header class="clearfix">
 				<div class="inner">
@@ -63,6 +78,16 @@
 			$(function() {
 				AppShowcase.init();
 			});
+		</script>
+
+		<script>
+			[].slice.call( document.querySelectorAll( '.dotstyle > ul' ) ).forEach( function( nav ) {
+				new DotNav( nav, {
+					callback : function( idx ) {
+						//console.log( idx )
+					}
+				} );
+			} );
 		</script>
 	</body>
 </html>

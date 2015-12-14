@@ -13,19 +13,38 @@
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
 		<link rel="stylesheet" type="text/css" href="css/component1.css" />
+		<link rel="stylesheet" type="text/css" href="../css/component6.css" />
+
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
 		<div id="scroll-wrap" class="container">
 			<div class="codrops-top clearfix">
 				<a href="../index5.html"><strong>&laquo; Previous: </strong>Museum Identity: Rodin</a>
-				<span class="right">
-<!-- 					<a href="http://dribbble.com/shots/990850-Minimal-iPhone-5-PSD-Free-Template-Updated">iPhone by Jakub Kejha</a>
- -->					<a href="#"><strong> Next: </strong>Project Name <strong> &raquo;</strong></a></span>
+				<!-- <span class="right">
+				<a href="#"><strong> Next: </strong>Project Name <strong> &raquo;</strong></a></span> -->
+				<div class=" center codrops-top clearfix dotstyle dotstyle-stroke">
+					
+					<ul>
+						<li><a href= "../index.html">Home</a></li>
+						<li> <a href="../index2.html">Metra Train</a></li>
+						<li ><a href="../index3.html">La Caida</a></li>
+						<li><a href="../index4.html">Olympic Poster</a></li>
+						<li ><a href="../index5.html" >Museum Identiti:Rodin</a></li>
+						<li class="current" ><a href="Books/index6.html">Futura Book</a></li>
+					</ul>
+				</div>
+
+
+
+
+
+
+
 			</div><!--/ Codrops top bar -->
 			<header class="clearfix">
 				<div class="inner">
-					<h1>blah<span>wblah</span></h1>
+					<h1>Futura Book<span>Creating a new Identity</span></h1>
 					<!-- <nav class="codrops-demos">
 						<a href="index.html">Demo 1</a>
 						<a href="index2.html">Demo 2</a>
@@ -41,11 +60,10 @@
 						<figcaption><h2>text on type <span>CRITICAL WRITINGS ON TYPOGRAPHY</span><span>EDITED BY STEVEN HELLER AND PHILIP B. MEGGS</span></h2></figcaption>
 						<div class="details">
 							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</li>
+								<li>Tittle pages and a spread from the book was redesigned</li>
 								<li>Press</li>
-								<li>12.10.2012</li>
-								<li># pages</li>
+								<li>Spring 2015</li>
+								<li>3 week assignment</li>
 							</ul>
 						</div>
 					</figure>
@@ -88,5 +106,15 @@
 		<script src="js/bookblock.min.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/bookshelf.js"></script>
+		 
+		 <script>
+			[].slice.call( document.querySelectorAll( '.dotstyle > ul' ) ).forEach( function( nav ) {
+				new DotNav( nav, {
+					callback : function( idx ) {
+						//console.log( idx )
+					}
+				} );
+			} );
+		</script>
 	</body>
 </html>

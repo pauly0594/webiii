@@ -98,8 +98,8 @@ a:hover {
 	text-transform: uppercase;
 	position: relative;
 	font-size: 0.75em;
-	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
-	line-height: 2.2;
+/*	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+*/	line-height: 2.2;
 }
 
 .codrops-top a {
@@ -147,4 +147,9 @@ a:hover {
 .codrops-demos a.current-demo:hover {
 	color: #aaa;
 	border-color: #aaa;
+}
+.center{
+	text-align: center;
+	/*padding: 3em 0;*/
+	/*overflow: hidden;*/
 }
