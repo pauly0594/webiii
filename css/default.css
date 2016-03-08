@@ -39,7 +39,7 @@ body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #333;
     background: #f9f9f9;
-    font-size: 0.9em;
+  /*  font-size: 0.9em;*/
     overflow-x: hidden;
 
 }

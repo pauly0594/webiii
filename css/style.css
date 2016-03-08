@@ -25,6 +25,17 @@ changing color of background
 
 }
 
+.graphics,
+.splash{
+  position:absolute;
+}
+
+.splash{
+  width:50vw;
+  z-index:10;
+  top:25%;
+}
+
 polygon{
   opacity:0;
   -webkit-transition-delay: -1s;
@@ -86,6 +97,7 @@ svg#patternCaida, svg#patternConquista, svg#patternRodin, svg#patternTokyo, svg#
   height:0;
 
   }
+
 
 
 
