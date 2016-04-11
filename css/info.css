@@ -25,13 +25,11 @@
 	font-size: 60%;
 	color: #c0c0c0;
 }
-.ac-wrapper insta{
-	display: block;
-	font-size: 60%;
-	color: #c0c0c0;
-}
+
+
+
 .ac-device {
-	background: url(../images/iPhone.png) no-repeat;
+	/*background: url(../images/iPhone.png) no-repeat;*/
 	width: 288px;
 	height: 611px;
 	margin: 0 auto;
@@ -210,12 +208,13 @@
 		left: 290px;
 	}
 
-	.ac-wrapper h2 { 
+	.ac-wrapper h2  { 
 		left: 308px; 
 		padding: 0; 
 		text-align: left; 
 		margin-left: 30px;
 	}
+
 }
 
 @media screen and (max-width: 58em) {
@@ -245,6 +244,7 @@
 		left: auto;
 		position: relative;
 	}
+	
 
 	.ac-device {
 		margin: 0 auto;
