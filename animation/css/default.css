@@ -91,15 +91,15 @@ a:hover {
 	padding: 2em;
 }
 
- /*Header Style 
-*/
-   .codrops-top {
+/* Header Style */
+.codrops-top {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.5);
 	text-transform: uppercase;
 	position: relative;
 	font-size: 0.875em;
-	line-height: 2.2;
+/*	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+*/	line-height: 2.2;
 }
 
 .codrops-top a {
@@ -142,13 +142,14 @@ a:hover {
 	color: #000;
 	border-color: #000;
 }
-.center{
-	text-align: center;
-	/*padding: 3em 0;*/
-	/*overflow: hidden;*/
-}
+
 .codrops-demos a.current-demo,
 .codrops-demos a.current-demo:hover {
 	color: #aaa;
 	border-color: #aaa;
+}
+.center{
+	text-align: center;
+	/*padding: 3em 0;*/
+	/*overflow: hidden;*/
 }

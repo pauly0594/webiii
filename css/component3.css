@@ -51,6 +51,7 @@
 .ac-device a img {
 	display: block;
 	position: absolute;
+	width:300px;
 }
 
 .ac-device h3 {
